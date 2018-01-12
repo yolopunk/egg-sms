@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "@alicloud/sms-sdk": "^1.0.2"
+    "@alicloud/sms-sdk": "^1.0.2",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "autod": "^3.0.0",
