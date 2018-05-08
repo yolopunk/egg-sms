@@ -66,7 +66,7 @@ You can acquire sms instance on `app` or `ctx`
   // {app_root}/app/controller/sms.js
   ...
   async send () {
-    await this.ctx.sendSMS({
+    await this.ctx.sms.sendSMS({
       PhoneNumbers: '1500000000',
       SignName: '云通信产品',
       TemplateCode: 'SMS_000000',
